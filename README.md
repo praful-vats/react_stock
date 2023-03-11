@@ -1,70 +1,9 @@
 # dalal street
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this project, I utilized the power of asyncio to handle asynchronous I/O and improve the performance of the real-time stock data application. Asynchronous programming is a powerful technique that allows for the execution of multiple tasks concurrently, without blocking the main thread or requiring additional resources. By using asyncio, I was able to create a responsive and efficient application that is able to handle large amounts of data and provide real-time updates to the user.
 
-## Available Scripts
+Additionally, I utilized a combination of technologies to create a robust and scalable application. I used Django, a popular web framework, to create the REST API that serves as the backend of the application. I also used Django Channels, which provides a high-level API for WebSockets, to implement real-time communication between the server and the client. This allowed for seamless communication between the two components, enabling the application to provide real-time updates to the user.
 
-In the project directory, you can run:
+On the frontend, I used React, a popular JavaScript library, to create a responsive and dynamic user interface. I used websockets, to handle API requests and fetch data from the server. With these technologies, I was able to create a fast and responsive user interface that is easy to use and navigate.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Overall, this project showcases my ability to use a variety of technologies and frameworks to create a robust and scalable application that provides real-time updates to the user. By utilizing asyncio, Django, Django Channels, React, and Websockets, I was able to create an application that is both powerful and easy to use, providing a seamless user experience for anyone looking to access real-time stock data.
