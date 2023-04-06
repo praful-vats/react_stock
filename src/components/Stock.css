@@ -1,0 +1,283 @@
+.info-container {
+  display: flex;
+  height: 100px;
+  position: absolute;
+  animation: move 15s linear 0s infinite;
+  right: 0;
+}
+
+.info {
+  font-size: 30px;
+  display: flex;
+  transition: all 0.5s ease-in-out;
+  /* white-space: nowrap; */
+}
+
+@keyframes move {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
+
+.cont {
+    justify-content: space-between;
+}
+
+.top {
+    /* margin-top: 100px; */
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+  
+.info p {
+    margin: 10px;
+}
+
+.info p:nth-child(1) {
+    flex-grow: 1;
+}
+
+.info p:nth-child(2) {
+    text-align: left;
+    flex-grow: 1;
+}
+
+.info p:nth-child(3) {
+    flex-grow: 1;
+}
+
+.info p:nth-child(4) {
+    text-align: left;
+    flex-grow: 1;
+}
+
+.info p:nth-child(2),
+.info p:nth-child(4) {
+  width: fit-content;
+  margin-right: 20px;
+}
+
+.info p:nth-child(1),
+.info p:nth-child(3) {
+  width: fit-content;
+  margin-right: 20px;
+}
+
+
+
+
+
+
+
+.one { grid-area: one; }
+.two 
+{ 
+    grid-area: two; 
+    height: 135px;
+    width: 300px;
+    background-color: #d97156;
+}
+.three 
+{
+    grid-area: three;
+    /* height: 200px; */
+    width: 725px;
+    background-color: #000000;
+    color: white;
+    overflow-y: scroll;
+}
+.element::-webkit-scrollbar { width: 0 !important }
+
+.four 
+{ 
+    grid-area: four; 
+    height: 135px;
+    width: 300px; 
+    background-color: #ff8516;
+    display: grid;
+    grid-template-areas: 
+    'circ tex';
+}
+
+
+.five { grid-area: five; }
+.six { grid-area: six;
+    width: 300px;
+    background-color: #df7500;
+height: 135px;}
+.seven {grid-area: seven;}
+.th {
+    /* height:max-content; */
+    grid-area: th;
+    width: 200px;
+    height: 418px;
+    background-color: #edb700;
+}
+
+.in-grid {
+  display: grid;
+  font-size: 25px;
+  /* text-align: left; */
+  grid-template-areas: 
+  'ione itwo';
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.opt {
+  display: inline-block;
+  border: solid 2px;
+  background-color: #262626;
+  padding: 10px;
+  font-size: 10px;
+  margin: 5px;
+  /* border-radius: 25px; */
+  border-color: #d06e0d;
+  color: rgb(255, 255, 255);
+}
+
+.tagcloud {
+  display: inline-block;
+  top:0%;
+  left: 0%;
+}
+
+.tagcloud--item {
+  text-transform: uppercase;
+}
+
+.tagcloud--item:hover {
+  color: #edb700;
+}
+/* .iga {
+  padding: 10px 10px;
+} */
+
+.grid {
+  display: grid;
+  grid-template-areas: 
+  'two th three'
+  'four th three'
+  'six th three';
+  /* grid-template-columns: auto;
+  grid-template-rows: auto; */
+  gap: 5px;
+  border: solid 2px;
+  background-color: #262626;
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px;
+  border-radius: 15px;
+  height: 420px;
+  bottom: 0;
+  position: absolute;
+}
+.two.item input[type="text"] {
+    border: none; /* Remove the input border */
+    border-bottom: 1px solid black; /* Add a bottom border to the input */
+    /* padding-bottom: 5px;  */
+    background-color: transparent;
+    font-size: 28px;
+    margin-top: 50px;
+    width: 250px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .two.item button {
+    border: none; /* Remove the button border */
+    background-color: transparent; /* Remove the button background color */
+    text-decoration: none; /* Add underline to the button text */
+    cursor: pointer; /* Change cursor to pointer when hovering over the button */
+  }
+  .symbol-count button {
+    border: none; /* Remove the button border */
+    background-color: transparent; /* Remove the button background color */
+    text-decoration: none; /* Add underline to the button text */
+    cursor: pointer; /* Change cursor to pointer when hovering over the button */
+  }
+  
+
+.item {
+    /* background-color: #000000; */
+    /* border: 1px solid #fff; */
+    /* padding: 10px; */
+    /* font-size: 60px; */
+    /* text-align: center; */
+    border-radius: 15px;
+}
+
+.circles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 30px);
+    grid-template-rows: repeat(3, 30px);
+    gap: 15px;
+    /* justify-content: center; */
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 100px;
+  }
+  
+  .circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #d06e0d;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .circle.black {
+    background-color: black;
+  }
+  
+  .symbol-count {
+    display: grid;
+    grid-template-areas: 
+    '.  but'
+    'symbol-length  by ';
+    justify-content: center;
+    position: relative;
+    /* margin-top: 20px; */
+  }
+
+  .by {
+    grid-area: by;
+    align-self: end;
+    margin-bottom: 22px;
+    font-size: 25px;
+  }
+  .but {
+    font-size: 50px;
+  position: absolute;
+  transform: translateX(20%);
+  grid-area: but;
+  }
+  
+  .symbol-count .symbol-length {
+    font-size: 120px;
+    transition: all 0.5s ease-in-out;
+    grid-area: symbol-length;
+    transform: translateX(10%);
+  }
+  
+
+
+/* .gridin {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    background-color: #000000;
+    border: 2px solid #8f9a9d;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 15px;
+} */

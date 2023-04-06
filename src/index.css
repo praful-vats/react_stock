@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* @font-face {
+  font-family: "1982";
+  src: local("1982"),
+   url("./1982.ttf") format("truetype");
+} */
+@font-face {
+  font-family: "retro";
+  src: local("retro"),
+   url("./retro.ttf") format("truetype");
+}
+  

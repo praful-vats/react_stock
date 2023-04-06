@@ -1,3 +1,16 @@
+body {
+  background-color: black;
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  
+}
+
+.f19 {
+  font-family: "retro";
+ }
+ 
+
 .App {
   text-align: center;
 }
