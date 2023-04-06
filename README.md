@@ -7,3 +7,4 @@ Additionally, I utilized a combination of technologies to create a robust and sc
 On the frontend, I used React, a popular JavaScript library, to create a responsive and dynamic user interface. I used websockets, to handle API requests and fetch data from the server. With these technologies, I was able to create a fast and responsive user interface that is easy to use and navigate.
 
 Overall, this project showcases my ability to use a variety of technologies and frameworks to create a robust and scalable application that provides real-time updates to the user. By utilizing asyncio, Django, Django Channels, React, and Websockets, I was able to create an application that is both powerful and easy to use, providing a seamless user experience for anyone looking to access real-time stock data.
+![Screenshot (256)](https://user-images.githubusercontent.com/78860906/230322382-f43a1c1f-ebe7-4090-9e1c-0a9f2ac6b6d0.png)
