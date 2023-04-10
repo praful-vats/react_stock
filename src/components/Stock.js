@@ -20,7 +20,7 @@ function DisplayStockData({ stockData }) {
           </div>
           <div>
             <p style={{color: isStockUp ? "lightgreen" : "red"}}>{arrow}{stockData.pChange}</p>
-            <p style={{color: isStockUp ? "lightgreen" : "red"}}>&thinsp;{mp}&thinsp;{Change}</p>
+            <p style={{color: isStockUp ? "lightgreen" : "red"}}>{mp}{Change}</p>
           </div>
         </div>
   );

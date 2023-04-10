@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './visitor2.ttf';
-import './1982.ttf';
+
 import './retro.ttf';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
